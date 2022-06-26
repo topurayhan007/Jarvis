@@ -7,7 +7,11 @@ time = curr_time.strftime("%H")
 str = ""
 if(time < '12'):
     str = "Good Morning"
+<<<<<<< HEAD
 elif('12'<= time < '17'):
+=======
+elif('12' <= time < '17'):
+>>>>>>> 5527bd9896a927ac240bf78a69bcd9def3c6507f
     str = "Good Afternoon"
 elif(time >= '17'):
     str = "Good Evening"
