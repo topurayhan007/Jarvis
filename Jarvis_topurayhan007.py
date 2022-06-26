@@ -7,12 +7,13 @@ time = curr_time.strftime("%H")
 str = ""
 if(time < '12'):
     str = "Good Morning"
-elif('12'<time<'17'):
+elif('12'<= time < '17'):
     str = "Good Afternoon"
-elif(time>'17'):
+elif(time >= '17'):
     str = "Good Evening"
 
 talko = pyttsx3.init()
+
 output = "Welcome back Sir! "+ str
 text = (output)
 
